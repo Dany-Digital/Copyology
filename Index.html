@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Copyology</title>
+    <link rel="stylesheet" href="AppStyle.css" />
+  </head>
+
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">Copyology</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#About" class="navbar__links" id="About-page">About Us</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#contact" class="navbar__links" id="Testamonial-page"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+    <div class="hero" id="home">
+      <div class="hero hero__container">
+        <h1 class="hero__heading"><span>Printing </span></h1>
+        <h1 class="hero__heading">Done Right</h1>
+        <!-- <p class="hero__description">"Your Vision, Our Precision"</p> -->
+        <button class="main__btn" id="More-Button"><a href="#">More</a></button>
+      </div>
+    </div>
+    <!-- About section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img">
+          <div class="main__img--card">
+            <img src="images/fady.jpeg" id="fady" />
+          </div>
+        </div>
+        <div class="main__content">
+          <h1>About Us</h1>
+          <p>
+            Eng. Fady Farah Rizk founded a premier printing business in
+            Sheraton, Cairo, where his expertise drives unmatched quality and
+            innovation. As the owner, he sets a new standard for excellence in
+            the local printing industry.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Testamonial section -->
+    <div class="test__body">
+      <div class="test__slider">
+        <div class="item" id="item-1">
+          <img src="images/EBIS.jpeg" alt="Ebis" id="ebis" />
+          <h1>Egyptien British International School</h1>
+        </div>
+        <div class="item" id="item-2">
+          <img src="images/Atlas.jpeg" alt="Atlas" id="atlas" />
+          <h1>Atlas</h1>
+        </div>
+        <div class="item" id="item-3">
+          <img src="images/loay_khalil.jpeg" alt="loay khalil" id="loay" />
+          <h1>Loay Khalil</h1>
+        </div>
+        <div class="item" id="item-4">
+          <img src="images/Quest.png" alt="Quest" id="quest" />
+          <h1>Quest</h1>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Get in Contact</h2>
+            <a href="/email">Email</a>
+            <a href="/whatsapp">whatsapp</a>
+            <a href="phone">Call</a>
+          </div>
+        </div>
+      </div>
+      <p class="rights">© Copyology 2024. All right reserved</p>
+    </div>
+    <script src="App.js"></script>
+  </body>
+</html>
